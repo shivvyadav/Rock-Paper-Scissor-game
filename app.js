@@ -12,3 +12,8 @@ const genComputerChoice = () => {
   const randIdx = Math.floor(Math.random() * 3);
   return options[randIdx];
 };
+
+const drawGame = () => {
+  msg.innerText = "Game was Draw. Play again.";
+  msg.style.backgroundColor = "#081b31";
+};
